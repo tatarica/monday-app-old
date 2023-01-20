@@ -1,0 +1,95 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0px 6px 11px #0000000A;
+    height: 110px;
+    line-height: 1.5;
+    margin-bottom: 18px;
+    font-weight: 500;
+}
+
+.card>span {
+    margin-left: 2rem;
+}
+
+.cardStatus {
+    height: 100%;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    width: 7rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.cardFlex {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    color: var(--dark-gray);
+    align-items: center;
+}
+
+.border {
+    border-left: 1px solid #D9E1E2;
+    padding: 22px 0 22px 20px;
+    min-width: 68px;
+}
+
+.missingPad {
+    padding: 22px 28px 22px 36px;
+}
+
+.cardStatusFlex {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.cardHelp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    color: var(--dark-gray);
+    font-weight: 300;
+}
+
+.cardHelpStatusFlex {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: var(--dark-gray);
+    font-weight: 300;
+}
+
+.cardHelpStatus {
+    height: 100%;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    font-size: 16px;
+}
+
+.cardHelpStatus:first-of-type {
+    margin-bottom: 6px;
+}
+
+@media (min-width: 992px) {
+    .cardHelpStatusFlex, .cardStatusFlex {
+        flex-direction: row;
+    }
+}

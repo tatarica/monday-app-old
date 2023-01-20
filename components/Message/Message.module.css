@@ -1,0 +1,39 @@
+.messageWrap {
+    padding: 16px;
+    width: 100%;
+    background-color: rgba(217, 225, 226, 0.36);
+    margin-bottom: 21px;
+}
+
+.messageHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .7rem;
+}
+
+.messageSender {
+    font-style: italic;
+}
+
+.messageText {
+    line-height: 1.5;
+}
+
+.messageDate {
+    font-style: italic;
+    color: var(--gray);
+    font-weight: 300;
+}
+
+.dateRight {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.messageFile {
+    display: block;
+    color: #0077C8;
+    text-decoration: underline;
+    margin-bottom: 2px;    
+}

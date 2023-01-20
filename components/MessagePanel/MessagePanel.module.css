@@ -1,0 +1,65 @@
+.ticketMessagesDiv {
+    flex-direction: column;
+    min-height: 200px;
+    max-height: 511px;
+    overflow-y: scroll;
+    border-bottom: 2px solid #D9E1E2;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+.max {
+    max-width: 90vw;
+}
+
+.ticketSubmit>textarea {
+    resize: none;
+    width: 100%;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'GT';
+}
+
+.ticketSubmit>p {
+    font-weight: 300;
+}
+
+.ticketSent {
+    margin-top: 2rem;
+}
+
+.pad {
+    margin-bottom: 20px;
+}
+
+.noMargin {
+    margin: 0;
+}
+
+.ticketSender {
+    margin: 22px 0;
+}
+
+.senderInput {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-family: 'GT';
+}
+
+@media (min-width: 1100px) {
+    .ticketMessagesDiv {
+        min-height: 360px;
+        max-height: 360px;
+    }
+
+    .submitFlex {
+        display: flex;
+    }
+
+    .max {
+        margin-top: 60px;
+    }
+}

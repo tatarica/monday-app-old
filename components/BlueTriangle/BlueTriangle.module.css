@@ -1,0 +1,20 @@
+.tri {
+    position: absolute;
+    right: -130px;
+    top: -50px;
+    height: 100px;
+    width: 400px;
+    background-color: #0033A0;
+    transform: rotate(20deg);
+    display: none;
+}
+
+@media (min-width: 1100px) {
+    .tri {
+        display: block;
+        right: -240px;
+        top: -100px;
+        height: 200px;
+        width: 800px;
+    }
+}

@@ -1,0 +1,14 @@
+.h1 {
+    margin: 40px 12px;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.tickets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 96%;
+    padding: 0 2%;
+    margin-top: 100px;
+}
